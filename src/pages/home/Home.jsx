@@ -3,7 +3,7 @@ import Hero from './componetns/Hero'
 
 const Home = () => {
   return (
-    <Hero/>
+    <Hero butttonvitrakrakhney="i am calling from hero"/>
   )
 }
 

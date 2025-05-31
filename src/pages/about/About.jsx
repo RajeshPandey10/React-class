@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../../components/Button'
 
 const About = () => {
   return (
@@ -16,9 +17,15 @@ const About = () => {
       <p className="text-xl leading-[27px]  font-normal sm:text-[24px] mb-8 md:mb-12">
         Explore innovative designs crafted with precision and elegance to enhance your lifestyle.
       </p>
-      <button className="w-full flex items-center  justify-between outline-gray-600 max-w-[350px] text-xl  font-bold sm:text-lg  rounded-[38px] bg-[#262626] text-white py-4 px-6 sm:px-9"><span>
+      {/* <button className="w-full flex items-center  justify-between outline-gray-600 max-w-[350px] text-xl  font-bold sm:text-lg  rounded-[38px] bg-[#262626] text-white py-4 px-6 sm:px-9"><span>
           Get Started        
-        </span><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="#fff" height="20px" width="20px" version="1.1" viewBox="0 0 330 330" xmlSpace="preserve"><path id="XMLID_27_" d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255  s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0  c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" /></svg></button>
+        </span><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="#fff" height="20px" width="20px" version="1.1" viewBox="0 0 330 330" xmlSpace="preserve"><path id="XMLID_27_" d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255  s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0  c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" /></svg></button> */}
+   <Button>
+    <button>
+      this is about button
+    </button>
+   </Button>
+
     </div>
   </div>
 </section>
